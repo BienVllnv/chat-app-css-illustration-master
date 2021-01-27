@@ -35,6 +35,11 @@ body {
   height: 60px;
 }
 
+.upper-part p {
+  color: hsl(276, 100%, 81%);
+  font-size: 8px;
+}
+
 .lower-part {
   display: flex;
   flex-direction: column;
@@ -54,6 +59,7 @@ body {
 .rcv-msg {
   background-color: hsl(206, 6%, 79%);
   border-radius: 8px 8px 8px 3px;
+  color: hsl(276, 55%, 52%);
   height: fit-content;
   width: 60%;
   padding: .7em;
@@ -63,8 +69,10 @@ body {
   align-self: flex-end;
   background-color: #fff;
   border-radius: 8px 8px 3px;
+  color: hsl(271, 15%, 43%);
   text-align: right;
   height: min-content;
+  width: fit-content;
   padding: .7em;
 }
 
@@ -83,8 +91,9 @@ body {
 .price {
   background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
   border-radius: 8px 8px 8px 3px;
+  color: #fff;
   height: fit-content;
-  width: 60%;
+  width: 80%;
   padding: .7em;
   display: flex;
   flex-direction: row-reverse;
