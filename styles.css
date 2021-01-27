@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(270, 20%, 96%) ;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.phone-container {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 270px;
+    height: max-content;
+    padding: 2px;
+    margin: 20% auto;
+}
+
+.inner-container {
+  background-color: hsl(270, 20%, 96%) ;
+  border-radius: 20px;
+  font-size: 10px;
+  margin: 10px;
+}
+
+.upper-part {
+  background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  border-radius: 20px 20px 3px 3px;
+  color: #fff;
+  padding: 2.5em;
+  width: 100%;
+  height: 60px;
+}
+
+.lower-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+  padding: 1em;
+}
+
+.samuel {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  float: left;
+  margin-right: 1em;
+  width: 25px;
+}
+
+.rcv-msg {
+  background-color: hsl(206, 6%, 79%);
+  border-radius: 8px 8px 8px 3px;
+  height: fit-content;
+  width: 60%;
+  padding: .7em;
+}
+
+.sent-msg {
+  align-self: flex-end;
+  background-color: #fff;
+  border-radius: 8px 8px 3px;
+  text-align: right;
+  height: min-content;
+  padding: .7em;
+}
+
+.dogs-cage {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.dogs {
+  border-radius: 8px;
+  width: 45px;
+}
+
+.price {
+  background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-radius: 8px 8px 8px 3px;
+  height: fit-content;
+  width: 60%;
+  padding: .7em;
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+
+#text-box {
+  border: none;
+  border-radius: 20px;
+  margin-top: 1em;
+}
+
+  .attribution { 
+      font-size: 11px; text-align: center; 
+    }
+  .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
